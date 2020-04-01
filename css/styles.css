@@ -1,0 +1,176 @@
+body {
+  color: #40514e;
+  margin: 0;
+  background-color: white;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #481380;
+
+
+}
+
+div {
+  background-color: white;
+}
+
+.h1 {
+  color: #66BFBF;
+  font-size: 5rem;
+  line-height: 2;
+  margin:50px auto 1 auto;
+  font-family: 'Sacramento', cursive;
+
+}
+p{
+  margin-top: 2rem;
+  font-weight: normal;
+  line-height: 2;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.progr{
+     color: #66BFBF;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding: 10px;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #11999E;
+}
+
+.top_container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle_container {
+  margin:70px 0;
+}
+
+
+
+.cloud {
+  width: 80px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  /* азыр релайтв= родственник белгилеп беришибиз керек, бербесек боди ни релайтв으로 잡는다*/
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.kh-img{
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  border-color: #84a9ac;
+  border-width: 3px;
+
+
+}
+.girl-img{
+  border-radius: 100%;
+  width: 25%;
+  height: 11rem;
+  float: left;
+  margin-right: 30px;
+
+}
+
+  .dog-img{
+    border-radius: 100%;
+    width: 25%;
+    height: 11rem;
+    float: right;
+    margin-left: 30px;
+  }
+
+
+hr{
+
+  border-style: dotted ;
+  border-width: 0.37rem 0 0 0;
+  width: 5%;
+  border-color: #eaf6f6;
+  margin: 100px auto;
+
+
+}
+.contact-messages{
+  width: 40%;
+  margin: 40px 0 60px;
+}
+
+
+
+.skill-row{
+  margin: 6.25rem auto 6.25rem auto ;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+
+}
+
+.footer-link{
+    color: #11999E;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-link:hover{
+  color: white;
+
+}
+
+.©{
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20 0;
+}
+.bottom_container{
+  background-color:#66BFBF;
+  position: absolute;
+  margin-bottom: 0;
+  width: 100%;
+  padding: 50px 0 20px;
+}
+.myButton {
+	box-shadow:inset -5px -6px 17px -8px #d9fbbe;
+	background:linear-gradient(to bottom, #eaf6f6 5%, #11999E 100%);
+	background-color:#11999E;
+	border-radius:12px;
+	border:1px solid;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:-1px -2px 2px #11999E;
+  margin-bottom: 1.3rem;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #cae8d5 5%, #aacfcf 100%);
+	background-color:#d4ebd0;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
